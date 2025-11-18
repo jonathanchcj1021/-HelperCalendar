@@ -2,6 +2,8 @@ import { db } from './config'
 import { collection, getDocs, query, where, getDoc, doc } from 'firebase/firestore'
 import type { UserData } from './auth'
 
+export type { UserData }
+
 export async function getHelpersByEmployer(employerId: string): Promise<UserData[]> {
   const q = query(
     collection(db, 'users'),

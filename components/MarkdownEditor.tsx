@@ -109,7 +109,7 @@ export function MarkdownEditor({
             onChange={(val) => onChange(val || '')}
             preview="edit"
             hideToolbar={false}
-            visibleDragBar={false}
+            visibleDragbar={false}
             data-color-mode="light"
             height={minHeight}
           />

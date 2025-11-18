@@ -19,8 +19,8 @@ import {
   Alert,
 } from '@mui/material'
 import { Add, Delete } from '@mui/icons-material'
-import { registerUser } from '@/lib/firebase/auth'
-import { getHelpersByEmployer, type UserData } from '@/lib/firebase/users'
+import { registerUser, type UserData } from '@/lib/firebase/auth'
+import { getHelpersByEmployer } from '@/lib/firebase/users'
 import { useAuth } from '@/components/Auth/AuthProvider'
 
 export function HelperManagement() {
